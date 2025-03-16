@@ -53,19 +53,19 @@ class HomePage extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
-                  Stack(alignment:Alignment.bottomLeft,
-                    children:[
-                      Container(height:2,width:130,
-                        decoration:BoxDecoration(boxShadow:[BoxShadow(color:Colors.grey,
-                          blurRadius:5.0,offset:Offset(3.0,3.0),)]),
+
+                      Text(
+                        "Recommended",
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.orange[300],
+                          fontWeight: FontWeight.bold,
+                          decoration: TextDecoration.underline,
+                          decorationThickness: 3.0,
+                          decorationColor: Colors.orange[300],
+                        ),
                       ),
-                      Text("Recommended",textAlign: TextAlign.left,style: TextStyle(fontSize:20,
-                        color:Colors.yellow[700],
-                        fontWeight: FontWeight.bold,
-                        decoration:TextDecoration.underline,
-                        decorationColor: Colors.transparent,
-                        decorationThickness:2.0,),)
-                    ],),
+
                   SizedBox(width: 18),
                   Text("Ecotourism", style: TextStyle(fontSize: 18)),
                   SizedBox(width: 18),
