@@ -1,16 +1,21 @@
-# my_first_project
+# Travel-App
 
-A new Flutter project.
+A convenient way for travelers to explore new destinations, plan trips.
 
-## Getting Started
+# Approach
 
-This project is a starting point for a Flutter application.
+1. Designed a virtually appealing and user-friendly interface.
+2.  Implemented multiple options to make easier for the user to select destinations.
 
-A few resources to get you started if this is your first Flutter project:
+# Challenges faced 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Major challenge was to give shadow under the underlined Recommended section.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Improvements
+
+1. Add more options and features that would give more clarity about the destination to the user like weather update, tour guides, etc.
+2. Add different fare options that would help user to plan accordingly.
+3. Will try to make app more attractive.
+4. Regular updates will be made regarding trending places.
+
+
